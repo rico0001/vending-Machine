@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>CS2S564VendingMachine</RootNamespace>
+    <AssemblyName>CS2S564VendingMachine</AssemblyName>
+    <ApplicationTitle>SMART VENDING MACHINE</ApplicationTitle>
+    <ForceDesignerDpiUnaware>true</ForceDesignerDpiUnaware>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CS2S564VendingMachine.Core\CS2S564VendingMachine.Core.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="Assets\**\*">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\products.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+</Project>

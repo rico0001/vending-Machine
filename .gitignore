@@ -1,0 +1,24 @@
+## Visual Studio / .NET
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.userprefs
+*.log
+
+## Build outputs
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa]rtifacts/
+
+## Transaction history generated at runtime
+**/Data/transactions.json
+
+## OS
+.DS_Store
+Thumbs.db

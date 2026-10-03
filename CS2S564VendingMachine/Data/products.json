@@ -1,0 +1,38 @@
+[
+  {
+    "id": "cola",
+    "name": "Coca-Cola",
+    "unitPricePence": 120,
+    "imageFileName": "coca-cola.jpg"
+  },
+  {
+    "id": "pepsi",
+    "name": "Pepsi",
+    "unitPricePence": 115,
+    "imageFileName": "pepsi.jpg"
+  },
+  {
+    "id": "water",
+    "name": "Bottled Water",
+    "unitPricePence": 90,
+    "imageFileName": "water.jpg"
+  },
+  {
+    "id": "juice",
+    "name": "Orange Juice",
+    "unitPricePence": 150,
+    "imageFileName": "orange-juice.jpg"
+  },
+  {
+    "id": "chocolate",
+    "name": "Chocolate Bar",
+    "unitPricePence": 85,
+    "imageFileName": "chocolate.jpg"
+  },
+  {
+    "id": "crisps",
+    "name": "Crisps",
+    "unitPricePence": 75,
+    "imageFileName": "crisps.jpg"
+  }
+]
