@@ -92,3 +92,4 @@ The GUI project is Windows-only. The Core library and tests target `net6.0` so b
 dotnet build CS2S564VendingMachine.sln
 dotnet run --project CS2S564VendingMachine/CS2S564VendingMachine.csproj
 ```
+# vending-Machine
